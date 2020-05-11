@@ -13,6 +13,7 @@
 		8D9791842209DEAB00100BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9791822209DEAB00100BDA /* LaunchScreen.storyboard */; };
 		8D97918D2209DEEB00100BDA /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D97918C2209DEEB00100BDA /* NewsListTableViewController.swift */; };
 		8D9791902209E21C00100BDA /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D97918F2209E21C00100BDA /* Webservice.swift */; };
+		E41476CD2468D72B007B8650 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41476CC2468D72B007B8650 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D9791852209DEAB00100BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D97918C2209DEEB00100BDA /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		8D97918F2209E21C00100BDA /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		E41476CC2468D72B007B8650 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8D9791782209DEAA00100BDA /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				E41476CB2468D72B007B8650 /* Models */,
 				8D97918E2209E21000100BDA /* Services */,
 				8D97918B2209DED300100BDA /* Controllers */,
 				8D9791792209DEAA00100BDA /* AppDelegate.swift */,
@@ -81,6 +84,14 @@
 				8D97918F2209E21C00100BDA /* Webservice.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E41476CB2468D72B007B8650 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E41476CC2468D72B007B8650 /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41476CD2468D72B007B8650 /* Article.swift in Sources */,
 				8D97918D2209DEEB00100BDA /* NewsListTableViewController.swift in Sources */,
 				8D97917A2209DEAA00100BDA /* AppDelegate.swift in Sources */,
 				8D9791902209E21C00100BDA /* Webservice.swift in Sources */,
