@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  GoodNews
+//  mvc_to_mvvm_demo
 //
-//  Created by Mohammad Azam on 2/5/19.
-//  Copyright © 2019 Mohammad Azam. All rights reserved.
+//  Created by Brian Voong on 7/3/18.
+//  Copyright © 2018 Brian Voong. All rights reserved.
 //
 
 import UIKit
@@ -14,12 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow()
+        window?.makeKeyAndVisible()
         
-        UINavigationBar.appearance().barTintColor = UIColor(displayP3Red: 47/255, green: 54/255, blue: 64/255, alpha: 1.0)
-        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        
+        window?.rootViewController = CustomNavigationController(rootViewController: CoursesController())
         return true
     }
 

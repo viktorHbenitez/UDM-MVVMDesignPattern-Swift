@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GoodNews.xcodeproj">
+      location = "self:mvc_to_mvvm_demo.xcodeproj">
    </FileRef>
 </Workspace>
