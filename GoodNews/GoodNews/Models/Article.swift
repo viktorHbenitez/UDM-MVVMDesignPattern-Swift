@@ -8,7 +8,6 @@
 
 import Foundation
 
-// Decodable protocol = only get all the values from backend
 struct ArticleList: Decodable {
     let articles: [Article]
 }
