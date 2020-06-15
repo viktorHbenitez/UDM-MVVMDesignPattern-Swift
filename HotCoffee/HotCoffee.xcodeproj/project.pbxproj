@@ -13,6 +13,7 @@
 		8DB8EA6122860E2800A72EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB8EA5F22860E2800A72EDE /* LaunchScreen.storyboard */; };
 		8DB8EA6A22860F1600A72EDE /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB8EA6922860F1600A72EDE /* OrdersTableViewController.swift */; };
 		8DB8EA6C22860F4000A72EDE /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB8EA6B22860F4000A72EDE /* AddOrderViewController.swift */; };
+		E40C386424972838005D5CF0 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C386324972838005D5CF0 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DB8EA6222860E2800A72EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DB8EA6922860F1600A72EDE /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		8DB8EA6B22860F4000A72EDE /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		E40C386324972838005D5CF0 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8DB8EA5522860E2700A72EDE /* HotCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				E40C386224972838005D5CF0 /* Services */,
 				8DB8EA6822860E5200A72EDE /* Controllers */,
 				8DB8EA5622860E2700A72EDE /* AppDelegate.swift */,
 				8DB8EA5A22860E2700A72EDE /* Main.storyboard */,
@@ -73,6 +76,14 @@
 				8DB8EA6B22860F4000A72EDE /* AddOrderViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E40C386224972838005D5CF0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E40C386324972838005D5CF0 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			files = (
 				8DB8EA6A22860F1600A72EDE /* OrdersTableViewController.swift in Sources */,
 				8DB8EA5722860E2700A72EDE /* AppDelegate.swift in Sources */,
+				E40C386424972838005D5CF0 /* Webservice.swift in Sources */,
 				8DB8EA6C22860F4000A72EDE /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
