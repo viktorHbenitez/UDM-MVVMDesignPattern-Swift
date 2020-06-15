@@ -20,7 +20,8 @@ struct Resource<T: Codable> {
 
 class Webservice {
   
-  func load<T>(resource: Resource<T>, completion: @escaping (Result<T, NetworkError>) -> Void) {
+  func load<T>(resource: Resource<T>,
+               completion: @escaping (Result<T, NetworkError>) -> Void) {
     
     // fetch data
     URLSession.shared.dataTask(with: resource.url) { data, response, error in
