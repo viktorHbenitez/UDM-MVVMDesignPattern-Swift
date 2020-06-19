@@ -17,9 +17,9 @@ application/json
 - **Body**  
 raw
 {
-	"name":"Viktor Hugo",
-	"email":"viktorhugo@hotmail.com",
-	"type": "lattee",
+	"name":"Jhon Doe",
+	"email":"johndoe@gmail.com",
+	"type": "latte",
 	"size":"medium"
 }
 
